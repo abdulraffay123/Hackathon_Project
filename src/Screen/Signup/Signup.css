@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Main__coloring {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.9)),
+    url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm422-076.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c84e74a29cd699a10e8fe5d9cac8ed92");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paper {
+  width: 500px;
+  background-color: white;
+  padding: 15px;
+  /* box-shadow: 10px 10px rgba(0, 0, 0, 0.54); */
+  text-align: center;
+}
+
+.Heading__text {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+}
